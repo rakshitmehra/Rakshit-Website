@@ -1,5 +1,8 @@
 /* fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
