@@ -96,11 +96,17 @@ body {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 3px 15px;
-  margin: 10px 15px;
-  color: #272727;
+  padding: 3px 7px;
+  margin: 3px 9px;
+  color: #000000;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+}
+.custom_nav-container .navbar-nav .nav-item .nav-link:hover{
+  opacity: 2;
+  color: red;
+  transition: 0.2s;
 }
 
 a,
@@ -381,8 +387,10 @@ a:focus {
 }
 
 .about_section .img-box img {
-  width: 75%;
-  height: 40vh;
+  width: 80%%;
+  height: 42vh;
+  border-radius: 100px;
+  padding: 15px;
 }
 
 .about_section .detail-box p {
@@ -559,6 +567,7 @@ a:focus {
 .teacher_section .box .img-box img {
   width: 100%;
   height: 40vh;
+  border-radius: 80px;
 }
 
 .teacher_section .box .detail-box {
@@ -590,7 +599,6 @@ a:focus {
   background-color: transparent;
   color: #be2623;
 }
-
 .client_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -902,5 +910,38 @@ a:focus {
 
 .footer_section p a {
   color: inherit;
+}
+.collab-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 40px;
+  padding: 40px;
+}
+
+.collab-card {
+  width: 350px;
+  height: 200px;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.collab-card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collab-card img {
+  width: 110%;
+  height: 110%;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.collab-card img:hover {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
