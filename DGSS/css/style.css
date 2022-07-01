@@ -1,4 +1,4 @@
-/* fonts import */
+ fonts import */
 @import url("../fonts/octin_sports_rg.ttf");
 html{
   scroll-behavior: smooth;
@@ -31,7 +31,7 @@ body {
 }
 
 .layout_padding-bottom {
-  padding-bottom: 90px;
+  padding-bottom: 0px;
 }
 
 .heading_container {
@@ -260,7 +260,9 @@ a:focus {
 .slider_section .slider_bg_box .bg_img_box img {
   min-width: 100%;
   min-height: 100%;
-  
+}
+.bg_img_box img {
+  background-position: center;
 }
 
 .slider_section .slider_bg_box::before {
@@ -566,8 +568,7 @@ a:focus {
 
 .teacher_section .box .img-box img {
   width: 100%;
-  height: 40vh;
-  border-radius: 80px;
+  height: 38vh;
 }
 
 .teacher_section .box .detail-box {
@@ -904,7 +905,7 @@ a:focus {
 
 .footer_section p {
   color: #000000;
-  padding: 25px 0;
+  padding: 20px;
   margin: 0;
 }
 
@@ -944,4 +945,4 @@ a:focus {
 .collab-card img:hover {
   opacity: 1;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map 
